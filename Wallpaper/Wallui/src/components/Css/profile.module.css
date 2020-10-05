@@ -1,0 +1,95 @@
+.card{
+
+width:350px;
+height: 200x;
+align-content: center;
+align-self: center;
+margin: auto;
+/* Gray 5 */
+
+background: lightcyan;
+/* Gray 2 */
+
+border: 4px solid #4F4F4F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.img_round{
+
+border-radius: 100%;
+
+}
+
+
+.uploadButton {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    height:auto;
+    background-color: white;
+    width:auto;
+    color:black;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #4CAF50;
+}
+
+.grad{
+  
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#333333);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+ 
+
+}
+
+    
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 75%,50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.loader{
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+  
+    
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+.grid{ 
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;}
+
+
+
+.pops{
+    position: relative; 
+    background: rgb(255, 255, 255); 
+    width: 50%; margin: auto;  
+    padding: 0px;
+}

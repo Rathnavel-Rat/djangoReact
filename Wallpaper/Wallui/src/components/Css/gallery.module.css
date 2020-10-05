@@ -1,0 +1,58 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 10px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: -10px 5px 5px 5px pink;
+    background: linear-gradient(-45deg,#fcb3db, #e26293);
+  
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+   
+  }
+  
+  div.gallery img {
+    width: 100%;
+    border-radius: 10%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    height:70px ;
+    border-radius: 10%;
+    width: auto;
+  }
+.rnd_but{
+  border-radius: 50%;
+  color: rgb(66, 151, 221);
+  height: auto;
+  width: auto;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+
+.enlarge {
+  width: 20%;
+  float: left;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.enlarge:hover {
+  width: 50%;
+     -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+cursor: pointer;
+}
+
+
+
